@@ -6,7 +6,7 @@ import Search from './components/ui/Search'
 import './App.css'
 
 const App = () => {
-  const [items, setItems] = useState([])
+  const [items, setItems] = useState([]) //empty array to hold results of character search
   const [isLoading, setIsLoading] = useState(true)
   const [query, setQuery] = useState('')
 
